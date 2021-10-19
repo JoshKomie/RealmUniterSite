@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$green: #2E6A42;
+$dark-green: #1A453B;
+$brown: #623530;
+$light-tan: #f0d2AF;
+$purple: #8A4D76;
+$pink: #FA7C91;
+// $brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$roboto: "Roboto";
+
+// Update Bulma's global variables
+$family-primary: $roboto;
+$primary: $brown;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$text: $light-tan;
+$title-color: $light-tan;
+$subtitle-color: $light-tan;
+$box-background-color: $brown;
+
+// Update some of Bulma's component variables
+$body-background-color: $dark-green;
+
+
+#main-hero {
+  background-image: url("/images/woodlands_header.png");
+}
+
+
+
+@import "bulma/bulma";

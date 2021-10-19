@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section id="main-hero" class="hero is-medium">
+  <div class="hero-body has-text-centered">
+    <h1 class="title is-1"> {{ .Site.Title }} </h1>
+    <h2 class="subtitle is-2">
+    An action-adventure game
+    </h2>
+  </div>
+</section>
+<div class="section">
+  <div class="box is-size-5">
+    {{ .Content }}
+    <div class="container">
+      <button class="button is-info">Download Demo</button>
+      <button class="button is-info">Wishlist On Steam</button>
+    </div>
+  </div>
+</div>
+{{ range .RegularPages }}
+  <div class="section">
+    {{- partial "homepage_block.html" . -}}
+  </div>
+{{ end  }}
+{{ end }}

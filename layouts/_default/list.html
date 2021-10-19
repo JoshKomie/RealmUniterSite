@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="section">
+  <div class="box is-size-5">
+    {{ .Content }}
+  </div>
+</div>
+{{ range .Pages }}
+  <div class="section">
+    {{- partial "homepage_block.html" . -}}
+  </div>
+{{ end  }}
+{{ end }}
