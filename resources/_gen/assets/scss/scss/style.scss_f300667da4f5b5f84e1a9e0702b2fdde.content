@@ -1,6 +1,18 @@
 #main-hero {
   background-image: url("/images/woodlands_header.png"); }
 
+#home-content {
+  border-style: solid;
+  border-image-source: url("/images/xpattern_border.png");
+  border-image-width: 50px;
+  border-image-slice: 32;
+  border-image-repeat: round;
+  border-top: 0px; }
+
+@font-face {
+  font-family: "Breathe Fire";
+  src: url("/fonts/BreatheFire.woff") format("woff"), url("/fonts/BreatheFire.ttf") format("truetype"); }
+
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .pagination-previous,
@@ -270,7 +282,7 @@ th {
     text-align: inherit; }
 
 html {
-  background-color: #1A453B;
+  background-color: #46211f;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -387,7 +399,7 @@ table th {
 
 /* Bulma Elements */
 .box {
-  background-color: #623530;
+  background-color: #2E6A42;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #f0d2AF;
@@ -7199,3 +7211,21 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.title {
+  font-family: "Breathe Fire";
+  text-shadow: 3px 3px #351428;
+  font-weight: normal; }
+
+.title.is-1 {
+  font-size: 5rem;
+  text-shadow: 6px 6px #46211f;
+  font-weight: normal; }
+
+hr {
+  background-image: url("/images/horizontal_divider_simple.png");
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0);
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center; }
