@@ -7229,3 +7229,6 @@ hr {
   height: 50px;
   background-repeat: no-repeat;
   background-position: center; }
+
+.footer {
+  background-color: #1A453B; }
