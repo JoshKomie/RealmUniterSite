@@ -1,10 +1,12 @@
 <div class="block">
   <div class="columns">
-    <div class="column">
-      <figure class="image">
-        <img src="/images/{{.Params.image}}.png">
-      </figure>
-    </div>
+    {{ if not .Params.flip }}
+      <div class="column">
+        <figure class="image">
+          <img src="/images/{{.Params.image}}.png">
+        </figure>
+      </div>
+    {{ end }}
     <div class="column">
       <h3 class="title is-2 has-text-centered">
         {{ .Title }}
@@ -13,5 +15,12 @@
         {{ .Content }}
       </div>
     </div>
+    {{ if .Params.flip }}
+      <div class="column">
+        <figure class="image">
+          <img src="/images/{{.Params.image}}.png">
+        </figure>
+      </div>
+    {{ end }}
   </div>
 </div>

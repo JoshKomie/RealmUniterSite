@@ -7,21 +7,22 @@
     </h2>
   </div>
 </section>
-<section id="home-content" class="section">
+<section  class="section border">
   <div class="container">
-    <div class="box is-size-5">
+    <div class="section is-size-4">
       {{ .Content }}
-      <div >
-        <button class="button is-info">Download Demo</button>
-        <button class="button is-info">Wishlist On Steam</button>
-      </div>
+      <!-- <div > -->
+      <!--   <button class="button is-info">Download Demo</button> -->
+      <!--   <button class="button is-info">Wishlist On Steam</button> -->
+      <!-- </div> -->
     </div>
     {{ range .RegularPages }}
-    <div class="section">
+    <div>
       {{- partial "homepage_block.html" . -}}
     </div>
     <hr>
     {{ end  }}
   </div>
+  {{- partial "call_to_action.html" . -}}
 </section>
 {{ end }}

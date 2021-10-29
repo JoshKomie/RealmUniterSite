@@ -1,12 +1,14 @@
 {{ define "main" }}
-<div class="section">
-  <div class="box is-size-5">
-    {{ .Content }}
+<section class="section border mt-2">
+  <div class="container">
+    <div class="has-text-centered is-size-5">
+      <h1 class="title is-1">{{ .Title }}</h1>
+    </div>
+    <hr>
+    {{ range .Pages }}
+      {{- partial "post_preview.html" . -}}
+      <hr>
+    {{ end  }}
   </div>
-</div>
-{{ range .Pages }}
-  <div class="section">
-    {{- partial "post_preview.html" . -}}
-  </div>
-{{ end  }}
+</section>
 {{ end }}
