@@ -17,27 +17,37 @@ $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 $roboto: "Roboto";
 $dark-purple: #351428;
+$text: $light-tan;
+$link: $light-tan;
 
 // Update Bulma's global variables
 $family-primary: $roboto;
-$primary: $brown;
+$primary: $green;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 $text: $light-tan;
 $title-color: $light-tan;
 $subtitle-color: $light-tan;
-$box-background-color: $green;
+$box-background-color: $brown;
 
 // Update some of Bulma's component variables
 $body-background-color: $dark-brown;
 
+$family-sans-serif: "Ubuntu";
+$family-primary: $family-sans-serif;
+
+$navbar-background-color: $green;
+$navbar-item-hover-background-color: $dark-green;
+$navbar-item-color: $light-tan;
+
+$footer-padding: 2rem;
 
 
 #main-hero {
   background-image: url("/images/woodlands_header.png");
 }
 
-#home-content {
+.border {
   border-style: solid;
   
   border-image-source: url("/images/xpattern_border.png");
@@ -54,6 +64,11 @@ $body-background-color: $dark-brown;
 }
 
 
+
+
+.navbar-item {
+  color: $light-tan;
+}
 
 
 @import "bulma/bulma";
@@ -78,6 +93,11 @@ hr {
   background-position: center;
 }
 
+
 .footer {
-  background-color: $dark-green;
+  background-color: $green;
 }
+
+// .navbar {
+//   border-bottom: 3px solid $dark-green;
+// }
