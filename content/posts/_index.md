@@ -1,4 +1,4 @@
 ---
 title: "Dev Blog"
 ---
-Welcome to the blog
+Coming Soon!
