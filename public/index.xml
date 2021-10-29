@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Realm Uniter</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Realm Uniter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Realm Divided for Centuries</title>
+      <link>http://example.org/overall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/overall/</guid>
+      <description>Once a harmonius kingdom, the land has fallen into disarray. In a world divided by hatred, misunderstanding and greed. Do you have what it takes to unite the realms?</description>
+    </item>
+    
+    <item>
+      <title>Find a Vast Arsenal of Weapons, Items and Armor</title>
+      <link>http://example.org/customization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/customization/</guid>
+      <description>Along the path you shall find the tools you need both physical and metaphysical to achieve the tools you need for not only unification.</description>
+    </item>
+    
+    <item>
+      <title>A Diverse Cast of Characters and Areas</title>
+      <link>http://example.org/story/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/story/</guid>
+      <description>You are not alone, but you must be careful who you trust as you move through the forest, the town, the dark forest, the necromancers lair and more.</description>
+    </item>
+    
+    <item>
+      <title>Fight a Variety of Enemies</title>
+      <link>http://example.org/combat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/combat/</guid>
+      <description>Rely on your reflexs as you dodge, block and attack your way through a diverse set of enemies intent to stop you in your task. Learn the timing of your enemies attack patterns and exploit them.</description>
+    </item>
+    
+  </channel>
+</rss>
