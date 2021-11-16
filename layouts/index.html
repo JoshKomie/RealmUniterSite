@@ -16,7 +16,7 @@
       <!--   <button class="button is-info">Wishlist On Steam</button> -->
       <!-- </div> -->
     </div>
-    {{ range .RegularPages }}
+    {{ range .CurrentSection.RegularPages }}
     <div>
       {{- partial "homepage_block.html" . -}}
     </div>
