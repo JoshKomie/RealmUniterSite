@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Realm Uniter</title>
+    <title>Dev Blog on Realm Uniter</title>
     <link>http://example.org/posts/</link>
-    <description>Recent content on Realm Uniter</description>
+    <description>Recent content in Dev Blog on Realm Uniter</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jan 2022 16:09:51 -0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ambitious Ales Event</title>
+      <link>http://example.org/posts/ambitious-ales-event/</link>
+      <pubDate>Mon, 17 Jan 2022 16:09:51 -0800</pubDate>
+      
+      <guid>http://example.org/posts/ambitious-ales-event/</guid>
+      <description>A most excellent event, Ambitious Ales Indie Game Night put on by Max and OC Drawing Royale!
+We had an awesome time playing games like &amp;ldquo;Rookie of the Year&amp;rdquo; by Two Rabbit Games and Hexachessagon by Spherous Games just to name a couple. Watching folks play Realm Uniter and getting our first feedback was so valuable. Thank you! The artists who drew pieces inspired by the handful of games did incredible work!</description>
+    </item>
+    
   </channel>
 </rss>

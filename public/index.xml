@@ -5,32 +5,15 @@
     <link>http://example.org/</link>
     <description>Recent content on Realm Uniter</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jan 2022 16:09:51 -0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Realm Divided for Centuries</title>
-      <link>http://example.org/overall/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/overall/</guid>
-      <description>Once a harmonius kingdom, the land has fallen into disarray. In a world divided by hatred, misunderstanding and greed. Do you have what it takes to unite the realms?</description>
-    </item>
-    
-    <item>
-      <title>Find a Vast Arsenal of Weapons, Items and Armor</title>
-      <link>http://example.org/customization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/customization/</guid>
-      <description>Along the path you shall find the tools you need both physical and metaphysical to achieve the tools you need for not only unification.</description>
-    </item>
-    
-    <item>
-      <title>A Diverse Cast of Characters and Areas</title>
+      <title>Adventure through a fantasy world</title>
       <link>http://example.org/story/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/story/</guid>
-      <description>You are not alone, but you must be careful who you trust as you move through the forest, the town, the dark forest, the necromancers lair and more.</description>
+      <description>Explore forests, caves, towns and more, all rendered in colorful, retro-inspired pixel art. Talk to a variety of characters and creatures, find secret areas, shortcuts and hidden items, and uncover a plot that only you can solve.</description>
     </item>
     
     <item>
@@ -39,7 +22,35 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/combat/</guid>
-      <description>Rely on your reflexs as you dodge, block and attack your way through a diverse set of enemies intent to stop you in your task. Learn the timing of your enemies attack patterns and exploit them.</description>
+      <description>Rely on your reflexes as you dodge, block and attack your way through a diverse set of enemies intent to stop you in your task. Learn the timing of your enemies attack patterns and exploit them.</description>
+    </item>
+    
+    <item>
+      <title>Find a Vast Arsenal of Weapons, Items and Armor</title>
+      <link>http://example.org/customization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/customization/</guid>
+      <description>Acquire and equip a variety of weapons, armor and items to customize your playstyle. No classes or restrictions means you can customize your build however you want. Build into classic archetypes like a heavy-armored knight, light and nimble spellcaster, or mix and match and create your own build!</description>
+    </item>
+    
+    <item>
+      <title>Ambitious Ales Event</title>
+      <link>http://example.org/posts/ambitious-ales-event/</link>
+      <pubDate>Mon, 17 Jan 2022 16:09:51 -0800</pubDate>
+      
+      <guid>http://example.org/posts/ambitious-ales-event/</guid>
+      <description>A most excellent event, Ambitious Ales Indie Game Night put on by Max and OC Drawing Royale!
+We had an awesome time playing games like &amp;ldquo;Rookie of the Year&amp;rdquo; by Two Rabbit Games and Hexachessagon by Spherous Games just to name a couple. Watching folks play Realm Uniter and getting our first feedback was so valuable. Thank you! The artists who drew pieces inspired by the handful of games did incredible work!</description>
+    </item>
+    
+    <item>
+      <title>Thanks for Signing Up!</title>
+      <link>http://example.org/pages/mailverify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/pages/mailverify/</guid>
+      <description>You&amp;rsquo;ll receive a verification e-mail shortly that contains a link which you need to visit in order to confirm your subscription.</description>
     </item>
     
   </channel>
